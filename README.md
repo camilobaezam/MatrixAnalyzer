@@ -23,8 +23,11 @@ Ideal para practicar:
    cd MatrixAnalyzer
 2. Crea un archivo matriz.txt con una matriz (filas separadas por líneas, valores por espacios o comas).
 Ejemplo:
+
 -1 2 -5 40
+
 9 65 -6 -34
+
 0 -4 9 2
 
 ## Uso
@@ -42,15 +45,22 @@ Opción 5: Salir
 ## Ejemplo de ejecución
 
 Supongamos matriz inicial:
+
 -1 2 -5 40
+
 9 65 -6 -34
+
 0 -4 9 2
 Después de procesar:
 
 Matriz modificada:
+
 [0, 2, 0, 40]
+
 [9, 65, 0, 0]
+
 [0, 0, 9, 2]
+
 Conteos: Ceros: 6, Positivos: 6
 
 Salida en consola:
@@ -65,6 +75,7 @@ Opciones:
 5. Salir
 
 Elige una opción: 2
+
 Ruta del archivo: matriz.txt
 
 Matriz cargada exitosamente (3 filas, 4 columnas).
@@ -74,29 +85,43 @@ Elige una opción: 3
 Procesando matriz...
 
 Matriz original:
+
 [-1, 2, -5, 40]
+
 [9, 65, -6, -34]
+
 [0, -4, 9, 2]
 
 Matriz modificada (negativos reemplazados por 0):
+
 [0, 2, 0, 40]
+
 [9, 65, 0, 0]
+
 [0, 0, 9, 2]
 
 Análisis:
 - Número de ceros: 6
 - Número de positivos: 6
+
 Ejemplos adicionales
+
 Matriz pequeña manual
+
 Opción 1: Ingresar filas:
 
 Fila 1: -3 4 0
+
 Fila 2: 5 -2 1
+
 (Enter para terminar)
 
 Procesar → Modificada: [0, 4, 0] [5, 0, 1]
+
 Cerros: 3, Positivos: 3
+
 Archivo inválido o vacío
+
 → Mensaje de error y opción para intentar de nuevo
 
 ## Notas
